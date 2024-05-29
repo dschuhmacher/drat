@@ -6,3 +6,12 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: kanjistat.data
+Version: 0.2.0
+Depends: R (>= 3.5)
+Imports: utils, kanjistat
+Suggests: testthat (>= 3.0.0)
+License: CC BY-SA 4.0
+MD5sum: ca52d91eee8eb6e866f0de6cc3cbc41b
+NeedsCompilation: no

@@ -7,6 +7,16 @@ License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
 
+Package: graphmetrics
+Version: 0.2.3
+Depends: R (>= 3.5)
+Imports: methods, stats, utils, combinat, igraph, iGraphMatch, Matrix, ROI, Rcpp
+LinkingTo: Rcpp
+Suggests: ROI.plugin.cplex, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: ac019710f9aee6613b94c09b173ad063
+NeedsCompilation: yes
+
 Package: kanjistat.data
 Version: 0.2.0
 Depends: R (>= 3.5)
